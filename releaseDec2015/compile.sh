@@ -19,8 +19,8 @@ PLATFORM="64PC"     #should be 32PC, 64PC, 32MAC or 64MAC
 #BINMATLAB="/Applications/MATLAB_R2010b.app/bin/"
 
 #defaults for Linux
-INCLMATLAB="/opt/MATLAB/R2014b/extern/include/"
-BINMATLAB="/opt/MATLAB/R2014b/bin/"
+INCLMATLAB="/opt/MATLAB/R2017b/extern/include/"
+BINMATLAB="/opt/MATLAB/R2017b/bin/"
 
 
 #=== no parameters below here
