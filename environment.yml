@@ -1,0 +1,57 @@
+name: phyDev
+channels:
+  - defaults
+dependencies:
+  - blas=1.0=mkl
+  - ca-certificates=2018.03.07=0
+  - certifi=2018.8.24=py35_1
+  - cycler=0.10.0=py35hcc71164_0
+  - cython=0.28.5=py35h6538335_0
+  - h5py=2.8.0=py35h3bdd7fb_2
+  - hdf5=1.10.2=hac2f561_1
+  - icc_rt=2017.0.4=h97af966_0
+  - intel-openmp=2019.0=118
+  - jpeg=8d=vc14_2
+  - libpng=1.6.34=h79bbb47_0
+  - libtiff=4.0.6=vc14_2
+  - matplotlib=1.5.1=np111py35_0
+  - mkl
+  - numpy
+  - numpy-base=1.11.3=py35h8128ebf_10
+  - openssl=1.0.2p=hfa6e2cd_0
+  - pip=10.0.1=py35_0
+  - pyparsing=2.2.1=py35_0
+  - pyqt=4.11.4=py35_7
+  - python=3.5.6=he025d50_0
+  - python-dateutil=2.7.3=py35_0
+  - pytz=2018.5=py35_0
+  - qt=4.8.7=vc14_9
+  - scipy=1.1.0=py35hc28095f_0
+  - setuptools=40.2.0=py35_0
+  - sip=4.18=py35_0
+  - six=1.11.0=py35_1
+  - tk=8.5.18=vc14_0
+  - vc=14=h0510ff6_3
+  - vs2015_runtime=14.15.26706=h3a45250_0
+  - wheel=0.31.1=py35_0
+  - wincertstore=0.2=py35hfebbdb8_0
+  - zlib=1.2.11=h8395fce_2
+  - pip:
+    - chardet==3.0.4
+    - click==7.0
+    - decorator==4.3.0
+    - idna==2.7
+    - ipython-genutils==0.2.0
+    - joblib==0.12.5
+    - klusta==3.0.16
+    - klustakwik2==0.2.6
+    - pyopengl==3.1.0
+    - pyqt5-sip==4.19.14
+    - pyqtwebengine==5.12
+    - requests==2.20.0
+    - tqdm==4.28.1
+    - traitlets==4.3.2
+    - urllib3==1.24
+    - vispy==0.5.3
+prefix: C:\Users\giocomolab\Miniconda3\envs\phyDev
+
