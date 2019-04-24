@@ -13,4 +13,4 @@
 module load matlab
 echo "$(date): job $SLURM_JOBID starting on $SLURM_NODELIST"
 
-matlab -nodisplay -nosplash -r "run $HOME/SiliconProbeCode/convertNL2binScript.m, exit"
+matlab -nodisplay -nosplash -r "run $HOME/SiliconProbeCode-Caitlin/convertNL2binScript.m, exit"
