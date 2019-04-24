@@ -1,8 +1,5 @@
-
 function filename = neuralynx2kilosortSherlock(directoryPath, target_dir)
 
-addpath('C:\Users\Caitlin Mallory\Documents\GitHub\MatlabImportExport_v6.0.0')
-directoryPath = 'F:\Foster Lab Data\2018-12-19_11-34-45\RightHemProbeRecording';
 
     % convert H3 probe data to bin format for kilosort analysis
     % created by Kei Masuda
