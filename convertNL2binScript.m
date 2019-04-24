@@ -4,8 +4,8 @@ addpath('/home/users/cmallory/SiliconProbeCode-Caitlin/releaseDec2015')
 addpath('/home/users/cmallory/SiliconProbeCode-Caitlin/releaseDec2015/binaries')
 addpath('/home/users/cmallory/SiliconProbeCode-Caitlin/releaseDec2015/source')
 %%  
-sourcedir ='/oak/RightHemProbeRecording';
-targetdir = '/oak/RightHemProbeRecording/Processed_Data';
+sourcedir ='/home/users/cmallory/oak/RightHemProbeRecording';
+targetdir = 'home/users/cmallory/oak/RightHemProbeRecording/Processed_Data';
 
 
 neuralynx2kilosortSherlock(sourcedir, targetdir)

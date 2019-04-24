@@ -35,7 +35,8 @@ function filename = neuralynx2kilosortSherlock(directoryPath, target_dir)
         cscPath = fullfile(directoryPath, ['CSC' num2str(csc) '_' timeStamps '.ncs']);
 
         % load neuralynx file, linearize samples, convert to int16
-        [Samples,header]=Nlx2MatCSC_v3(cscPath, [0 0 0 0 1], 1, 1, [] );
+        [Samples,header]=Nlx2MatCSC(cscPath, [0 0 0 0 1], 1, 1, [] );
+%         [Samples,header]=Nlx2MatCSC_v3(cscPath, [0 0 0 0 1], 1, 1, [] );
         tmp=split(header{17}); %assuming conversion factor is in here;
         conv_factor = str2double(tmp{2}); % in volts
         conv_factor = conv_factor*10e6; % in micro volts
