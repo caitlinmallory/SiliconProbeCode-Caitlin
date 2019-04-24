@@ -31,7 +31,8 @@ directoryPath = 'F:\Foster Lab Data\2018-12-19_11-34-45\RightHemProbeRecording';
     
     fprintf(strcat('\nStart Processing: ', datestr(now,'mmmm dd, yyyy HH:MM:SS AM'),'\n'));
     numOfChannels = 64;
-    
+    timeStamps = '86871997211_89573143442';
+        
     for csc = 1:numOfChannels
         
         cscPath = fullfile(directoryPath, ['CSC' num2str(csc) '_' timeStamps '.ncs']);
