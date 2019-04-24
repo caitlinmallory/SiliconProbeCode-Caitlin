@@ -1,5 +1,4 @@
- directoryPath = 'F:\Foster Lab Data\2018-12-19_11-34-45\RightHemProbeRecording';
-function filename = neuralynx2kilosort(directoryPath,target_dir)
+ function filename = neuralynx2kilosort(directoryPath,target_dir)
     % convert H3 probe data to bin format for kilosort analysis
     % created by Kei Masuda
     % IL edited 4/9/19
