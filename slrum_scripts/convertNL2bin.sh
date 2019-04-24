@@ -4,7 +4,7 @@
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mail-type=BEGIN,END,FAIL
-#SBATCH --mail-user=ilow@stanford.edu
+#SBATCH --mail-user=cmallory@stanford.edu
 #SBATCH --mem-per-cpu=50G
 #SBATCH --time=2:00:00
 #SBATCH -o /scratch/users/ilow/nl2bin.%N.%j.out # STDOUT
