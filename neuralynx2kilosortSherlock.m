@@ -28,10 +28,10 @@ function filename = neuralynx2kilosortSherlock(directoryPath, target_dir)
     
     fprintf(strcat('\nStart Processing: ', datestr(now,'mmmm dd, yyyy HH:MM:SS AM'),'\n'));
     numOfChannels = 64;
-    timeStamps = '86871997211_89573143442';
+    timeStamps = '6159665707_7893828980';
         
     for csc = 1:numOfChannels
-        
+        gi
         cscPath = fullfile(directoryPath, ['CSC' num2str(csc) '_' timeStamps '.ncs']);
 
         % load neuralynx file, linearize samples, convert to int16
