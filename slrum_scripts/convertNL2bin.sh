@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -p giocomo, owners, normal
+#SBATCH -p owners
 #SBATCH --job-name=nl2bin
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=1
