@@ -1,0 +1,25 @@
+Thu Aug 15 15:48:33 PDT 2019: job 48333054 starting on sh-107-36
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2019 The MathWorks, Inc.
+                  R2019a (9.6.0.1072779) 64-bit (glnxa64)
+                               March 8, 2019
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+Start Processing:August 15, 2019  3:48:42 PM
+Error opening file;  0
+{One or more output arguments not assigned during call to "Nlx2MatCSC_v3".
+
+Error in neuralynx2kilosortSherlock (line 40)
+         [Samples,header]=Nlx2MatCSC_v3(cscPath, [0 0 0 0 1], 1, 1, [] );
+
+Error in convertNL2binScript (line 11)
+neuralynx2kilosortSherlock(sourcedir, targetdir)
+
+Error in run (line 91)
+evalin('caller', strcat(script, ';'));
+} 
