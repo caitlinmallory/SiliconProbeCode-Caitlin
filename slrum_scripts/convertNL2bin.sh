@@ -7,8 +7,8 @@
 #SBATCH --mail-user=cmallory@stanford.edu
 #SBATCH --mem-per-cpu=50G
 #SBATCH --time=2:00:00
-#SBATCH -o /scratch/users/cmallory/nl2bin.%N.%j.out # STDOUT
-#SBATCH -e /scratch/users/cmallory/nl2bin.%N.%j.err # STDERR
+#SBATCH -o /home/users/cmallory/SiliconProbeCode-Caitlin/slrum_scripts/nl2bin.%N.%j.out # STDOUT
+#SBATCH -e /home/users/cmallory/SiliconProbeCode-Caitlin/slrum_scripts/nl2bin.%N.%j.err # STDERR
 
 module load matlab
 echo "$(date): job $SLURM_JOBID starting on $SLURM_NODELIST"
