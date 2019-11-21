@@ -1,5 +1,14 @@
  function filename = neuralynx2kilosort(directoryPath,target_dir)
-    % convert H3 probe data to bin format for kilosort analysis
+   
+addpath('C:\Users\Caitlin Mallory\Documents\GitHub\SiliconProbeCode-Caitlin')
+addpath('C:\Users\Caitlin Mallory\Documents\GitHub\SiliconProbeCode-Caitlin/MatlabImportExport_v6.0.0')
+addpath('C:\Users\Caitlin Mallory\Documents\GitHub\SiliconProbeCode-Caitlin/releaseDec2015')
+addpath('C:\Users\Caitlin Mallory\Documents\GitHub\SiliconProbeCode-Caitlin/releaseDec2015/binaries')
+addpath('C:\Users\Caitlin Mallory\Documents\GitHub\SiliconProbeCode-Caitlin/releaseDec2015/source')
+ 
+ 
+ 
+ % convert H3 probe data to bin format for kilosort analysis
     % created by Kei Masuda
     % IL edited 4/9/19
     %
@@ -26,7 +35,7 @@
     
     fprintf(strcat('\nStart Processing: ', datestr(now,'mmmm dd, yyyy HH:MM:SS AM'),'\n'));
     numOfChannels = 64;
-    timeStamps = '86871997211_89573143442';
+    timeStamps = '18794456157_18990710047';
     
     
     for csc = 1:numOfChannels
