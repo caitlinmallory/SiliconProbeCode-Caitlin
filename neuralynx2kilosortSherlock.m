@@ -1,4 +1,4 @@
-function filename = neuralynx2kilosortSherlock(directoryPath, target_dir)
+function filename = neuralynx2kilosortSherlock(directoryPath, target_dir, timeStamps)
 
 
     % convert H3 probe data to bin format for kilosort analysis
@@ -28,7 +28,7 @@ function filename = neuralynx2kilosortSherlock(directoryPath, target_dir)
     
     fprintf(strcat('\nStart Processing: ', datestr(now,'mmmm dd, yyyy HH:MM:SS AM'),'\n'));
     numOfChannels = 64;
-    timeStamps = '620031416955_620966217548';
+%     timeStamps = '620031416955_620966217548';
 
         
     for csc = 1:numOfChannels
