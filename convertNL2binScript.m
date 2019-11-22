@@ -10,4 +10,4 @@ targetdir ='/home/users/cmallory/oak/11_11_19/616169768506_616432328369/';
 % sourcedir = 'Z:\giocomo\cmallory\11_18_19\616169768506_616432328369';
 % targetdir = 'Z:\giocomo\cmallory\11_18_19\616169768506_616432328369';
 
-neuralynx2kilosortSherklock(sourcedir, targetdir)
+neuralynx2kilosortSherlock(sourcedir, targetdir)
