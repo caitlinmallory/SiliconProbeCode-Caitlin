@@ -28,7 +28,7 @@ function filename = neuralynx2kilosortSherlock(directoryPath, target_dir)
     
     fprintf(strcat('\nStart Processing: ', datestr(now,'mmmm dd, yyyy HH:MM:SS AM'),'\n'));
     numOfChannels = 64;
-    timeStamps = '616169768506_616432328369';
+    timeStamps = '620031416955_620966217548';
 
         
     for csc = 1:numOfChannels
