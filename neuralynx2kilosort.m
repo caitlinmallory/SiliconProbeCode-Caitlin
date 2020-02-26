@@ -1,4 +1,4 @@
- function filename = neuralynx2kilosort(directoryPath,target_dir)
+ function filename = neuralynx2kilosort(directoryPath,target_dir,timeStamps)
    
 addpath('C:\Users\Caitlin Mallory\Documents\GitHub\SiliconProbeCode-Caitlin')
 addpath('C:\Users\Caitlin Mallory\Documents\GitHub\SiliconProbeCode-Caitlin/MatlabImportExport_v6.0.0')
@@ -35,7 +35,7 @@ addpath('C:\Users\Caitlin Mallory\Documents\GitHub\SiliconProbeCode-Caitlin/rele
     
     fprintf(strcat('\nStart Processing: ', datestr(now,'mmmm dd, yyyy HH:MM:SS AM'),'\n'));
     numOfChannels = 64;
-    timeStamps = '18794456157_18990710047';
+    
     
     
     for csc = 1:numOfChannels
