@@ -39,6 +39,8 @@ addpath('C:\Users\Caitlin Mallory\Documents\GitHub\SiliconProbeCode-Caitlin/rele
     
     
     for csc = 1:numOfChannels
+       
+       
         cscPath = fullfile(directoryPath, ['CSC' num2str(csc) '_' timeStamps '.ncs']);
 
         % load neuralynx file, linearize samples, convert to int16
